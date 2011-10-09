@@ -1,0 +1,33 @@
+name: SkyBlock
+main: me.mityada.skyblock.SkyBlock
+version: 1.0
+
+commands:
+  skyblock:
+    description: SkyBlock command
+    usage: |
+           /<command> enter
+           /<command> exit
+           /<command> reset
+           /<command> achievements [player]
+    
+permissions:
+  skyblock.*:
+    description: Gives access to all SkyBlock commands
+    children:
+      skyblock.enter: true
+      skyblock.exit: true
+      skyblock.reset: true
+      skyblock.achievements: true
+  skyblock.enter:
+    description: Allows to enter your SkyBlock world
+    default: op
+  skyblock.exit:
+    description: Allows to exit your SkyBlock world
+    default: op
+  skyblock.reset:
+    description: Allows to reset your SkyBlock world
+    default: op
+  skyblock.achievements:
+    description: Allows to view players' achievements
+    default: op
