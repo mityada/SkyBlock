@@ -1,5 +1,5 @@
 /*
- * Bukkit server plugin based on the Noobcrew's SkyBlock map.
+ * Bukkit server plugin based on the Noobcrew's SkyBlock map
  * Copyright (C) 2011 Dmitry Deshevoy
  *
  * This program is free software: you can redistribute it and/or modify
@@ -16,10 +16,16 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.mityada.skyblock;
+package ru.ifmo.ctd.deshevoy.skyblock;
 
-import java.util.logging.Logger;
+import ru.ifmo.ctd.deshevoy.skyblock.generator.SkyBlockGenerator;
+import ru.ifmo.ctd.deshevoy.skyblock.event.SkyBlockInventoryListener;
+import ru.ifmo.ctd.deshevoy.skyblock.event.SkyBlockPlayerListener;
+import ru.ifmo.ctd.deshevoy.skyblock.util.FileUtils;
+
 import java.io.File;
+import java.util.logging.Logger;
+import java.util.List;
 
 import org.bukkit.Material;
 import org.bukkit.Server;
@@ -35,14 +41,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.Chunk;
 import org.bukkit.block.Block;
 import org.bukkit.generator.ChunkGenerator;
-
-import com.onarandombox.MultiverseCore.MultiverseCore;
-import java.util.List;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.Event;
 import org.bukkit.event.Event.Priority;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.util.config.Configuration;
+
+import com.onarandombox.MultiverseCore.MultiverseCore;
 
 public class SkyBlock extends JavaPlugin {
     

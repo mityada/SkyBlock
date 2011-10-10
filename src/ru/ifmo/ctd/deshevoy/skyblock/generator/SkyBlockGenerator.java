@@ -1,5 +1,5 @@
 /*
- * Bukkit server plugin based on the Noobcrew's SkyBlock map.
+ * Bukkit server plugin based on the Noobcrew's SkyBlock map
  * Copyright (C) 2011 Dmitry Deshevoy
  *
  * This program is free software: you can redistribute it and/or modify
@@ -16,9 +16,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.mityada.skyblock;
+package ru.ifmo.ctd.deshevoy.skyblock.generator;
 
 import java.util.Random;
+
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.generator.ChunkGenerator;
