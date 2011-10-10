@@ -1,8 +1,8 @@
 name: SkyBlock
-main: ru.ifmo.deshevoy.skyblock.SkyBlock
+main: ru.mityada.SkyBlock
 version: 1.0.0
 desctiption: Bukkit server plugin based on the Noobcrew's SkyBlock map
-author: Dmitry Deshevoy
+author: mityada
 
 commands:
   skyblock:

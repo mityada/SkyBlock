@@ -1,6 +1,6 @@
 /*
  * Bukkit server plugin based on the Noobcrew's SkyBlock map
- * Copyright (C) 2011 Dmitry Deshevoy
+ * Copyright (C) 2011 mityada
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,12 +16,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package ru.ifmo.ctd.deshevoy.skyblock;
+package ru.mityada.skyblock;
 
-import ru.ifmo.ctd.deshevoy.skyblock.generator.SkyBlockGenerator;
-import ru.ifmo.ctd.deshevoy.skyblock.event.SkyBlockInventoryListener;
-import ru.ifmo.ctd.deshevoy.skyblock.event.SkyBlockPlayerListener;
-import ru.ifmo.ctd.deshevoy.skyblock.util.FileUtils;
+import ru.mityada.skyblock.generator.SkyBlockGenerator;
+import ru.mityada.skyblock.event.SkyBlockInventoryListener;
+import ru.mityada.skyblock.event.SkyBlockPlayerListener;
+import ru.mityada.skyblock.util.FileUtils;
 
 import java.io.File;
 import java.util.logging.Logger;
